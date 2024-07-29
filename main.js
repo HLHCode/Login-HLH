@@ -5,7 +5,7 @@ $(document).ready(function() {
         const password = $('#password').val();
 
         if (username === "HLH" && password === "Hlh0220112345*") {
-            window.location.href = "./principal/Index.html";
+            window.location.href = "./Principal/index.html";
         } else {
             $('#error-message').show();
         }
