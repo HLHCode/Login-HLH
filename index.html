@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HLH Code</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="login-container shadow p-4 rounded">
+            <div class="text-center mb-4">
+                <img src="https://img.freepik.com/free-vector/calculator-concept-illustration_114360-1239.jpg?t=st=1722211385~exp=1722214985~hmac=f12644c1f927039800db05162b632318782e5c3da00ada166737afd19102093b&w=740" alt="Logo" class="img-fluid">
+            </div>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Usuario</label>
+                    <input type="text" class="form-control" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" class="form-control" id="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+                <div id="error-message" class="alert alert-danger mt-3" style="display:none;">
+                    Usuario o contraseña incorrectos. Intente nuevamente.
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body {
+    background-color: #b37e7ea6;
+}
+
+.login-container {
+    max-width: 380px;
+    width: 100%;
+}
+
+img {
+    max-width: 100px;
+}
